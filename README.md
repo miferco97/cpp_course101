@@ -14,6 +14,8 @@
     - [2.3.4 Conditionals](#234-conditionals)
 - [3. Basic Concepts](#3-basic-concepts)
   - [3.1 Variables](#31-variables)
+    - [3.1.1 Basic Types](#311-basic-types)
+    - [3.1.2 Value assigments](#312-value-assigments)
   - [3.2 Conditions, branches and loops](#32-conditions-branches-and-loops)
   - [3.3 Control Flow](#33-control-flow)
   - [3.4 Functions](#34-functions)
@@ -24,6 +26,7 @@
   - [4.2 Pointers and References (arrow operator)](#42-pointers-and-references-arrow-operator)
   - [4.3 Pass by value and by reference](#43-pass-by-value-and-by-reference)
   - [4.4 Arrays](#44-arrays)
+    - [4.4.1 String Literals](#441-string-literals)
   - [4.5 Memory allocation](#45-memory-allocation)
   - [4.6 Stack vs Heap Memory](#46-stack-vs-heap-memory)
 - [5. Object Oriented Programming](#5-object-oriented-programming)
@@ -53,6 +56,9 @@
     - [6.6.1 Unique ptr](#661-unique-ptr)
     - [6.6.2 Shared ptr](#662-shared-ptr)
   - [6.7 Mutable](#67-mutable)
+  - [6.8 Casting](#68-casting)
+    - [6.8.1 Static Casting](#681-static-casting)
+    - [6.8.2 Dynamic Casting](#682-dynamic-casting)
 - [7. Advanced Functions](#7-advanced-functions)
   - [7.1 Function pointers](#71-function-pointers)
   - [7.2 Lambda functions](#72-lambda-functions)
@@ -60,11 +66,12 @@
   - [7.4 Threads and concurrency](#74-threads-and-concurrency)
   - [7.5 Friend Functions](#75-friend-functions)
 - [8. Advanced concepts](#8-advanced-concepts)
+  - [8.1 Implicit and Explicit Conversion](#81-implicit-and-explicit-conversion)
   - [8.1 Iterators](#81-iterators)
   - [8.2 L-values && R-values](#82-l-values--r-values)
   - [8.3 Copy Operator](#83-copy-operator)
   - [8.4 Move Semantics](#84-move-semantics)
-  - [8.5 RVO](#85-rvo)
+  - [8.5 Return Value Optimization (RVO)](#85-return-value-optimization-rvo)
 - [9. STD Library Basic Containers](#9-std-library-basic-containers)
   - [9.1 std::array](#91-stdarray)
   - [9.2 std::vector](#92-stdvector)
@@ -145,6 +152,8 @@ In order to organize a c++ code project different approaches can be used, howeve
 
 # 3. Basic Concepts
 ## 3.1 Variables
+### 3.1.1 Basic Types
+### 3.1.2 Value assigments
 ## 3.2 Conditions, branches and loops
 ## 3.3 Control Flow
 ## 3.4 Functions
@@ -156,6 +165,7 @@ In order to organize a c++ code project different approaches can be used, howeve
 ## 4.2 Pointers and References (arrow operator)
 ## 4.3 Pass by value and by reference
 ## 4.4 Arrays
+### 4.4.1 String Literals
 ## 4.5 Memory allocation 
 <!-- The new keyword-->
 ## 4.6 Stack vs Heap Memory
@@ -188,6 +198,10 @@ In order to organize a c++ code project different approaches can be used, howeve
 ### 6.6.1 Unique ptr
 ### 6.6.2 Shared ptr
 ## 6.7 Mutable
+## 6.8 Casting
+### 6.8.1 Static Casting
+### 6.8.2 Dynamic Casting
+
 
 # 7. Advanced Functions
 ## 7.1 Function pointers
@@ -197,11 +211,12 @@ In order to organize a c++ code project different approaches can be used, howeve
 ## 7.5 Friend Functions
 
 # 8. Advanced concepts
+## 8.1 Implicit and Explicit Conversion
 ## 8.1 Iterators
 ## 8.2 L-values && R-values
 ## 8.3 Copy Operator
 ## 8.4 Move Semantics
-## 8.5 RVO 
+## 8.5 Return Value Optimization (RVO)
 
 # 9. STD Library Basic Containers
 ## 9.1 std::array
