@@ -72,12 +72,15 @@
   - [8.3 Copy Operator](#83-copy-operator)
   - [8.4 Move Semantics](#84-move-semantics)
   - [8.5 Return Value Optimization (RVO)](#85-return-value-optimization-rvo)
-- [9. STD Library Basic Containers](#9-std-library-basic-containers)
-  - [9.1 std::array](#91-stdarray)
-  - [9.2 std::vector](#92-stdvector)
-  - [9.3 std::string](#93-stdstring)
-  - [9.4 std::pair, std::tuple](#94-stdpair-stdtuple)
-  - [9.5 std::unorderer_container](#95-stdunorderer_container)
+- [9. STD Library Basics](#9-std-library-basics)
+  - [9.1 STD Input Output Stream ```<iostream>```](#91-std-input-output-stream-iostream)
+    - [9.1.1 std::cout](#911-stdcout)
+  - [9.2 STD containers](#92-std-containers)
+    - [9.2.1 std::array](#921-stdarray)
+    - [9.2.2 std::vector](#922-stdvector)
+    - [9.2.3 std::string](#923-stdstring)
+    - [9.2.4 std::pair, std::tuple](#924-stdpair-stdtuple)
+    - [9.2.5 std::unorderer_container](#925-stdunorderer_container)
 
 
 # 1. Compiling and linking
@@ -218,12 +221,16 @@ In order to organize a c++ code project different approaches can be used, howeve
 ## 8.4 Move Semantics
 ## 8.5 Return Value Optimization (RVO)
 
-# 9. STD Library Basic Containers
-## 9.1 std::array
-## 9.2 std::vector
-## 9.3 std::string
-## 9.4 std::pair, std::tuple
-## 9.5 std::unorderer_container
+# 9. STD Library Basics 
+## 9.1 STD Input Output Stream ```<iostream>```
+### 9.1.1 std::cout
+
+## 9.2 STD containers
+### 9.2.1 std::array
+### 9.2.2 std::vector
+### 9.2.3 std::string
+### 9.2.4 std::pair, std::tuple
+### 9.2.5 std::unorderer_container
 
 
 --<br>
